@@ -1,8 +1,8 @@
 {
-  "id": "panakin-no-densetsu",
-  "title": "L5A 4ª edición — Compendios de Kalagar",
+  "id": "l5a4-kalagar",
+  "title": "L5A4 Kalagar",
   "description": "Compendios de La Leyenda de los Cinco Anillos, 4ª edición. Creados por Kalagar y recopilados y adaptados para Foundry VTT por Panakin.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     {
       "name": "Kalagar"
@@ -548,7 +548,7 @@
   ],
   "packFolders": [
     {
-      "name": "L5A 4ª edición — Compendios de Kalagar",
+      "name": "L5A4 Kalagar",
       "sorting": "a",
       "packs": [
         "abanicos",

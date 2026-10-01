@@ -1,4 +1,4 @@
-# L5A 4ª edición — Compendios de Kalagar
+# L5A4 Kalagar
 
 Creados por Kalagar y recopilados y adaptados para Foundry VTT por Panakin.
 
@@ -15,7 +15,7 @@ Pega esta URL en el campo URL del manifiesto:
 https://raw.githubusercontent.com/fcerezo/l5a-4e-compendios-kalagar/main/module.json
 ```
 
-Pulsa Instalar, entra en tu mundo y activa **L5A 4ª edición — Compendios de Kalagar** en Administrar módulos.
+Pulsa Instalar, entra en tu mundo y activa **L5A4 Kalagar** en Administrar módulos.
 Abre la pestaña Compendios para consultar el contenido.
 
 ## Contenido
@@ -24,7 +24,11 @@ Abre la pestaña Compendios para consultar el contenido.
 
 ## Instalaciones anteriores
 
-Se mantiene el identificador técnico `panakin-no-densetsu` para que la instalación anterior siga siendo el mismo módulo y conserve sus UUID de compendio. El nombre visible y la autoría cambian. Si ya instalaste la copia manual, haz una copia de seguridad de la carpeta del módulo antes de sustituirla por la versión de este repositorio. La versión manual carece de URL de manifiesto: esta versión incorpora las URLs para próximas actualizaciones.
+La versión 1.0.3 cambia el identificador técnico de `panakin-no-densetsu` a `l5a4-kalagar`. Foundry lo reconocerá como un módulo distinto: instálalo mediante la URL del manifiesto y activa **L5A4 Kalagar**. Desactiva el módulo anterior para evitar mostrar ambos juegos de compendios.
+
+El cambio de identificador también cambia los UUID de los compendios. Los enlaces que apunten a `Compendium.panakin-no-densetsu.*` requieren actualizarse a `Compendium.l5a4-kalagar.*`. Conserva una copia de seguridad de la instalación anterior, especialmente si editaste sus packs directamente. Los Items ya importados al mundo permanecen allí, aunque sus referencias al compendio original pueden necesitar actualización.
+
+Para instalación manual, la carpeta debe ser `Data/modules/l5a4-kalagar/` y contener `module.json`.
 
 ## Recursos y enlaces
 
