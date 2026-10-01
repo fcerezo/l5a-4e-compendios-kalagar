@@ -1,0 +1,609 @@
+{
+  "id": "panakin-no-densetsu",
+  "title": "L5A 4ª edición — Compendios de Kalagar",
+  "description": "Compendios de La Leyenda de los Cinco Anillos, 4ª edición. Creados por Kalagar y recopilados y adaptados para Foundry VTT por Panakin.",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "Kalagar"
+    },
+    {
+      "name": "Panakin"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "maximum": "14",
+    "verified": "14.368"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "l5r4",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "abanicos",
+      "label": "Abanicos",
+      "path": "packs/abanicos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "arcos-y-flechas",
+      "label": "Arcos y Flechas",
+      "path": "packs/arcos-y-flechas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "armaduras",
+      "label": "Armaduras",
+      "path": "packs/armaduras",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "armas-de-asta",
+      "label": "Armas de Asta",
+      "path": "packs/armas-de-asta",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "armas-de-cadena",
+      "label": "Armas de Cadena",
+      "path": "packs/armas-de-cadena",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "armas-de-ninjutsu",
+      "label": "Armas de Ninjutsu",
+      "path": "packs/armas-de-ninjutsu",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "armas-improvisadas",
+      "label": "Armas Improvisadas",
+      "path": "packs/armas-improvisadas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "armas-pesadas",
+      "label": "Armas Pesadas",
+      "path": "packs/armas-pesadas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "ayudas",
+      "label": "Ayudas",
+      "path": "packs/ayudas",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "bastones",
+      "label": "Bastones",
+      "path": "packs/bastones",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "cuchillos",
+      "label": "Cuchillos",
+      "path": "packs/cuchillos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "desventajas",
+      "label": "Desventajas",
+      "path": "packs/desventajas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "efectos-condicionales",
+      "label": "Efectos Condicionales",
+      "path": "packs/efectos-condicionales",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "espadas",
+      "label": "Espadas",
+      "path": "packs/espadas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "general",
+      "label": "General",
+      "path": "packs/general",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "habilidades-bugei",
+      "label": "Habilidades Bugei",
+      "path": "packs/habilidades-bugei",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "habilidades-comerciante",
+      "label": "Habilidades Comerciante",
+      "path": "packs/habilidades-comerciante",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "habilidades-nobles",
+      "label": "Habilidades Nobles",
+      "path": "packs/habilidades-nobles",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "habilidades-plebeyas",
+      "label": "Habilidades Plebeyas",
+      "path": "packs/habilidades-plebeyas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-hechizos-de-agua",
+      "label": "Items Hechizos de Agua",
+      "path": "packs/items-hechizos-de-agua",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-hechizos-de-aire",
+      "label": "Items Hechizos de Aire",
+      "path": "packs/items-hechizos-de-aire",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-hechizos-de-fuego",
+      "label": "Items Hechizos de Fuego",
+      "path": "packs/items-hechizos-de-fuego",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-hechizos-de-tierra",
+      "label": "Items Hechizos de Tierra",
+      "path": "packs/items-hechizos-de-tierra",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-hechizos-de-vacio",
+      "label": "Items Hechizos de Vacío",
+      "path": "packs/items-hechizos-de-vacio",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-katas-de-agua",
+      "label": "Items Katas de Agua",
+      "path": "packs/items-katas-de-agua",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-katas-de-aire",
+      "label": "Items Katas de Aire",
+      "path": "packs/items-katas-de-aire",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-katas-de-fuego",
+      "label": "Items Katas de Fuego",
+      "path": "packs/items-katas-de-fuego",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-katas-de-tierra",
+      "label": "Items Katas de Tierra",
+      "path": "packs/items-katas-de-tierra",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-katas-de-vacio",
+      "label": "Items Katas de Vacío",
+      "path": "packs/items-katas-de-vacio",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-kihos-de-agua",
+      "label": "Items Kihos de Agua",
+      "path": "packs/items-kihos-de-agua",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-kihos-de-aire",
+      "label": "Items Kihos de Aire",
+      "path": "packs/items-kihos-de-aire",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-kihos-de-fuego",
+      "label": "Items Kihos de Fuego",
+      "path": "packs/items-kihos-de-fuego",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-kihos-de-tierra",
+      "label": "Items Kihos de Tierra",
+      "path": "packs/items-kihos-de-tierra",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "items-kihos-de-vacio",
+      "label": "Items Kihos de Vacío",
+      "path": "packs/items-kihos-de-vacio",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "lanzas",
+      "label": "Lanzas",
+      "path": "packs/lanzas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "macro-hechizos-de-agua",
+      "label": "Macros Hechizos de Agua",
+      "path": "packs/macro-hechizos-de-agua",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "macro-hechizos-de-aire",
+      "label": "Macros Hechizos de Aire",
+      "path": "packs/macro-hechizos-de-aire",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "macro-hechizos-de-fuego",
+      "label": "Macros Hechizos de Fuego",
+      "path": "packs/macro-hechizos-de-fuego",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "macro-hechizos-de-tierra",
+      "label": "Macros Hechizos de Tierra",
+      "path": "packs/macro-hechizos-de-tierra",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "macro-hechizos-de-vacio",
+      "label": "Macros Hechizos de Vacío",
+      "path": "packs/macro-hechizos-de-vacio",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "maniobras",
+      "label": "Maniobras",
+      "path": "packs/maniobras",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "menu",
+      "label": "Menu",
+      "path": "packs/menu",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
+      "name": "tecnicas-de-escuela",
+      "label": "Técnicas de Escuela",
+      "path": "packs/tecnicas-de-escuela",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    },
+    {
+      "name": "ventajas",
+      "label": "Ventajas",
+      "path": "packs/ventajas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "l5r4"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "L5A 4ª edición — Compendios de Kalagar",
+      "sorting": "a",
+      "packs": [
+        "abanicos",
+        "arcos-y-flechas",
+        "armaduras",
+        "armas-de-asta",
+        "armas-de-cadena",
+        "armas-de-ninjutsu",
+        "armas-improvisadas",
+        "armas-pesadas",
+        "ayudas",
+        "bastones",
+        "cuchillos",
+        "desventajas",
+        "efectos-condicionales",
+        "espadas",
+        "general",
+        "habilidades-bugei",
+        "habilidades-comerciante",
+        "habilidades-nobles",
+        "habilidades-plebeyas",
+        "items-hechizos-de-agua",
+        "items-hechizos-de-aire",
+        "items-hechizos-de-fuego",
+        "items-hechizos-de-tierra",
+        "items-hechizos-de-vacio",
+        "items-katas-de-agua",
+        "items-katas-de-aire",
+        "items-katas-de-fuego",
+        "items-katas-de-tierra",
+        "items-katas-de-vacio",
+        "items-kihos-de-agua",
+        "items-kihos-de-aire",
+        "items-kihos-de-fuego",
+        "items-kihos-de-tierra",
+        "items-kihos-de-vacio",
+        "lanzas",
+        "macro-hechizos-de-agua",
+        "macro-hechizos-de-aire",
+        "macro-hechizos-de-fuego",
+        "macro-hechizos-de-tierra",
+        "macro-hechizos-de-vacio",
+        "maniobras",
+        "menu",
+        "tecnicas-de-escuela",
+        "ventajas"
+      ],
+      "color": "#8b2530",
+      "folders": []
+    }
+  ],
+  "readme": "LEEME.txt",
+  "type": "module",
+  "media": [],
+  "url": "https://github.com/fcerezo/l5a-4e-compendios-kalagar",
+  "manifest": "https://raw.githubusercontent.com/fcerezo/l5a-4e-compendios-kalagar/main/module.json",
+  "download": "https://raw.githubusercontent.com/fcerezo/l5a-4e-compendios-kalagar/main/l5a-4e-compendios-kalagar.zip"
+}
